@@ -262,7 +262,7 @@ h2 {
 
 
 .footer-content {
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("../assets/handshake.jpg");
     margin: 0px 150px;
 
     width: 1140px;
