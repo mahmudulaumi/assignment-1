@@ -5,6 +5,30 @@
     font-variation-settings:
         "wdth" 100;
 }
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+   
+  }
+.banner-btn {
+    position:static;
+    
+   
+    height: 66px;
+   
+    padding: 21px 24px 21px 24px;
+   
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 
 .secondary-bg {
     background-color: #FFF8F3;
@@ -23,7 +47,11 @@
 
 }
 
-
+.developer{
+    padding: 80px 0px 80px 0px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
 .text-center {
     text-align: center;
 
@@ -131,27 +159,10 @@ h2 {
 .skills,
 .targets {
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
-    position: static;
-    width: 390px;
-    height: 72px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-
-
-   
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 16px 0px;
 }
 
 .reason,
@@ -180,22 +191,28 @@ h2 {
 }
 
 
-.target{
+
+.footer-content {
+    background-image: url("/assets/handshake.jpg");
+    margin: 0px 150px;
+   
+    width: 1140px;
+    height: 314px;
+    color: white;
+
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
-}
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
 }
 
-.footer-content a {
-    color: #007BFF;
-    text-decoration: none;
+.footer-content h3
+ {
+   font-size: 32px;
+   
 }
-
-.footer-content a:hover {
-    text-decoration: underline;
+.footer-content p{
+    font-size: 16px;
 }
