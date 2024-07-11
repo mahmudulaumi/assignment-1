@@ -54,6 +54,10 @@
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .developer-container {
@@ -269,7 +273,7 @@ h2 {
     height: 314px;
     color: white;
 
-    background-attachment: fixed;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
